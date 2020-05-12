@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="10" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39232" started-at="2020-05-12T17:46:01Z" finished-at="2020-05-12T17:46:40Z">
+    <groups>
+    </groups>
+    <test name="Positive Test" duration-ms="221" started-at="2020-05-12T17:46:01Z" finished-at="2020-05-12T17:46:01Z">
+      <class name="com.flightbooking.testcaserunner.TestRunner">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.flightbooking.testcaserunner.TestRunner@5f341870]" name="beforetest" is-config="true" duration-ms="145" started-at="2020-05-12T17:46:01Z" finished-at="2020-05-12T17:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="roundwayFlightFlow()[pri:0, instance:com.flightbooking.testcaserunner.TestRunner@5f341870]" name="roundwayFlightFlow" duration-ms="42" started-at="2020-05-12T17:46:01Z" finished-at="2020-05-12T17:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roundwayFlightFlow -->
+        <test-method status="PASS" signature="onewayTripTestFlow()[pri:0, instance:com.flightbooking.testcaserunner.TestRunner@5f341870]" name="onewayTripTestFlow" duration-ms="4" started-at="2020-05-12T17:46:01Z" finished-at="2020-05-12T17:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onewayTripTestFlow -->
+      </class> <!-- com.flightbooking.testcaserunner.TestRunner -->
+    </test> <!-- Positive Test -->
+    <test name="Negative Test" duration-ms="38971" started-at="2020-05-12T17:46:01Z" finished-at="2020-05-12T17:46:40Z">
+      <class name="com.flightbooking.testcaserunner.TestRunner">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.flightbooking.testcaserunner.TestRunner@73846619]" name="beforeSuite" is-config="true" duration-ms="5840" started-at="2020-05-12T17:45:55Z" finished-at="2020-05-12T17:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.flightbooking.testcaserunner.TestRunner@73846619]" name="beforetest" is-config="true" duration-ms="10" started-at="2020-05-12T17:46:01Z" finished-at="2020-05-12T17:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="registrationNegativeFlow()[pri:0, instance:com.flightbooking.testcaserunner.TestRunner@73846619]" name="registrationNegativeFlow" duration-ms="11011" started-at="2020-05-12T17:46:01Z" finished-at="2020-05-12T17:46:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationNegativeFlow -->
+        <test-method status="PASS" signature="cardDetailsNegativeFlow()[pri:0, instance:com.flightbooking.testcaserunner.TestRunner@73846619]" name="cardDetailsNegativeFlow" duration-ms="18016" started-at="2020-05-12T17:46:12Z" finished-at="2020-05-12T17:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cardDetailsNegativeFlow -->
+        <test-method status="PASS" signature="flightDatesNegativeFlow()[pri:0, instance:com.flightbooking.testcaserunner.TestRunner@73846619]" name="flightDatesNegativeFlow" duration-ms="9924" started-at="2020-05-12T17:46:30Z" finished-at="2020-05-12T17:46:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDatesNegativeFlow -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.flightbooking.testcaserunner.TestRunner@73846619]" name="afterSuite" is-config="true" duration-ms="1167" started-at="2020-05-12T17:46:40Z" finished-at="2020-05-12T17:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.flightbooking.testcaserunner.TestRunner -->
+    </test> <!-- Negative Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <test name="Positive Test">
+    <classes>
+      <class name="com.flightbooking.testcaserunner.TestRunner">
+      <methods>
+       <include name="roundwayFlightFlow"/>
+       <include name="onewayTripTestFlow"/> </methods>
+      </class>
+    </classes>
+  </test>  
+   <test name="Negative Test">
+    <classes>
+      <class name="com.flightbooking.testcaserunner.TestRunner">
+      <methods>
+      <include name="registrationNegativeFlow"/>  
+      <include name="cardDetailsNegativeFlow"/>
+      <include name="flightDatesNegativeFlow"/> </methods>
+      </class>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
